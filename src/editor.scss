@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-todo-list {
+	border: 1px dotted #f00;
+}
+/* Default style */
+.wp-block-create-block-todo-list.is-style-default {
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	padding: 10px;
+  }
+  
+  /* Fancy style */
+  .wp-block-create-block-todo-list.is-style-fancy {
+	background-color: #ffe4e1;
+	border: 2px dashed #e91e63;
+	padding: 20px;
+	font-style: italic;
+  }
