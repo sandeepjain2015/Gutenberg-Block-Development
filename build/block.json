@@ -9,6 +9,7 @@
   "description": "Example block scaffolded with Create Block tool.",
   "example": {},
   "supports": {
+    "html": true,
     "align": [
       "left",
       "center",
@@ -16,18 +17,15 @@
       "wide",
       "full"
     ],
-    "alignText": true,
-    "alignWide": true,
     "anchor": true,
     "color": {
-      "background": true,
+      "background": false,
       "text": true,
       "gradients": true
     },
+    "multiple": false,
     "customClassName": true,
     "defaultStylePicker": true,
-    "html": true,
-    "multiple": false,
     "spacing": {
       "margin": true,
       "padding": true,
@@ -37,8 +35,7 @@
       "fontSize": true,
       "lineHeight": true,
       "__experimentalFontFamily": true
-    },
-    "__experimentalLayout": {}
+    }
   },
   "styles": [
     {
@@ -51,6 +48,13 @@
       "label": "Fancy"
     }
   ],
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "h2"
+    }
+  },
   "textdomain": "todo-list",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
