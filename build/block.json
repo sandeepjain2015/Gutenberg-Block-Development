@@ -49,10 +49,17 @@
     }
   ],
   "attributes": {
-    "content": {
-      "type": "string",
-      "source": "html",
-      "selector": "h2"
+    "items": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "properties": {
+          "content": {
+            "type": "string"
+          }
+        }
+      }
     }
   },
   "textdomain": "todo-list",
